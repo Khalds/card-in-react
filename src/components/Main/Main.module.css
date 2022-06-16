@@ -1,0 +1,60 @@
+.card {
+  width: 30%;
+  box-shadow: 2px 2px 10px grey;
+}
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(192, 190, 190);
+}
+
+.cardInfo {
+  padding: 20px;
+}
+
+.cardImg img {
+  width: 100%;
+}
+.cardDetailBut {
+  display: flex;
+  align-items: center;
+}
+.cardDetailBut button {
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(0, 94, 245);
+  border: 2px solid rgb(0, 94, 245);
+  border-radius: 5px;
+}
+
+.cardDetailBut button:active {
+  color: #fff;
+  background-color: rgb(0, 94, 245);
+}
+
+.cardName p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.infoText {
+  background: #fbfbfc;
+  color: #000;
+  position: absolute;
+  left: 28%;
+  width: 320px;
+  padding: 30px;
+  font-size: 20px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.infoText span {
+  position: absolute;
+  bottom: 75%;
+  left: 95%;
+  font-size: 16px;
+  color: Red;
+  cursor: pointer;
+}
